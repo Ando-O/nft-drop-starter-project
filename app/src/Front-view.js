@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './App.css'
 import './Front-view.css';
 import twitterLogo from './assets/twitter-logo.svg';
 import CandyMachine from './CandyMachine';
@@ -124,9 +125,9 @@ const App = () => {
   )
 
     const candyButton = () => (
-        <button onClick={boopHandler}>🍭🍭🍭🍭</button>
+        <button class="front-view-button candy-button" onClick={boopHandler}>🍭🍭🍭🍭</button>
     )
-    
+
   return (
     <div id="front-view" className="App">
       <div className="container">
