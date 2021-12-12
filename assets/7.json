@@ -1,11 +1,11 @@
 {
-    "name": "TEST NFT 0",
+    "name": "TEST NFT 7",
     "symbol": "",
-    "image": "bs_1.png",
+    "image": "rocket-2.png",
     "properties": {
       "files": [
         {
-          "uri": "bs_1.png",
+          "uri": "rocket-2.png",
           "type": "image/png"
         }
       ],
